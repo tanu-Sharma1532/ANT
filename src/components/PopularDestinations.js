@@ -7,6 +7,7 @@ import agra from "../assets/AGRA.jpg";
 import weekend1 from "../assets/Weekend Getaways from Delhi_cleanup.jpg";
 import weekend2 from "../assets/Weekend tour from Delhi_cleanup.jpg";
 import weekend3 from "../assets/Weekend trips from Delhi_cleanup.jpg";
+
 import BusTestimonials from "./BusTestimonials";
 import BusFAQ from "./BusFQ.js";
 
@@ -39,7 +40,6 @@ const destinations = [
 ];
 
 const PopularDestinations = () => {
-
   const sliderRef = useRef(null);
 
   const scrollLeft = () => {
@@ -50,16 +50,7 @@ const PopularDestinations = () => {
     sliderRef.current.scrollBy({ left: 350, behavior: "smooth" });
   };
 
-useEffect(() => {
-  const interval = setInterval(() => {
-    setCurrentImage((prev) => (prev + 1) % weekendImages.length);
-  }, 4000);
-
-  return () => clearInterval(interval);
-}, [weekendImages.length]);
-
-  /* Weekend auto image slider */
-
+  // Weekend slider
   const weekendImages = [weekend1, weekend2, weekend3];
   const [currentImage, setCurrentImage] = useState(0);
 
@@ -67,17 +58,14 @@ useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % weekendImages.length);
     }, 4000);
-
     return () => clearInterval(interval);
-  }, []);
+  }, [weekendImages.length]);
 
   return (
     <div className="w-full bg-white">
 
       {/* DESTINATION SLIDER */}
-
       <div className="py-14 relative">
-
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold">
             Popular Destinations & Weekend Tours
@@ -102,73 +90,46 @@ useEffect(() => {
         </button>
 
         {/* Slider */}
-
         <div
           ref={sliderRef}
           className="flex gap-6 px-14 overflow-x-auto scroll-smooth hide-scrollbar"
         >
-
           {destinations.map((item, index) => (
             <div
               key={index}
               className="min-w-[340px] h-[230px] rounded-xl overflow-hidden relative shadow-lg"
             >
-
               <img
                 src={item.image}
                 alt={item.title}
                 className="w-full h-full object-cover"
               />
-
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-
               <div className="absolute bottom-4 left-4 text-white">
-
-                <h3 className="text-xl font-semibold">
-                  {item.title}
-                </h3>
-
-                <p className="text-sm">
-                  {item.subtitle}
-                </p>
-
+                <h3 className="text-xl font-semibold">{item.title}</h3>
+                <p className="text-sm">{item.subtitle}</p>
               </div>
-
             </div>
           ))}
-
         </div>
-
       </div>
 
-
       {/* WEEKEND TRAVEL SECTION */}
-
       <div className="bg-gray-50 py-16 px-10">
-
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-
           {/* Auto Image */}
-
           <div className="w-full h-[360px] rounded-xl overflow-hidden shadow-lg">
-
             <img
               src={weekendImages[currentImage]}
               alt="weekend travel"
               className="w-full h-full object-cover transition-all duration-700"
             />
-
           </div>
 
           {/* Text */}
-
           <div>
- 
             <div className="mb-6 text-center">
-              <h2 className="text-4xl font-bold">
-                Perfect Weekend Getaways
-              </h2>
-
+              <h2 className="text-4xl font-bold">Perfect Weekend Getaways</h2>
               <div className="w-24 h-1 bg-[#ff9900] mt-3 rounded mx-auto"></div>
             </div>
 
@@ -190,14 +151,15 @@ useEffect(() => {
               relaxing nature retreats without taking long leaves
               from work.
             </p>
-
           </div>
-
         </div>
-
       </div>
+
+      {/* FAQ & Testimonials */}
       <BusFAQ />
       <BusTestimonials />
+
+      {/* Footer Image */}
       <div className="w-full">
         <img
           src="https://www.anttravels.com/images/bg-bottom.png"
