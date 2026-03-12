@@ -35,12 +35,12 @@ function Footer() {
 </div>
 
           <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:text-[#ff9900]">Blog</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">About Us</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Distance Chart</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Travel Tips</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Photo Gallery</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Wedding Transport</a></li>
+            <li><a  className="hover:text-[#ff9900]">Blog</a></li>
+            <li><a  className="hover:text-[#ff9900]">About Us</a></li>
+            <li><a  className="hover:text-[#ff9900]">Distance Chart</a></li>
+            <li><a  className="hover:text-[#ff9900]">Travel Tips</a></li>
+            <li><a  className="hover:text-[#ff9900]">Photo Gallery</a></li>
+            <li><a  className="hover:text-[#ff9900]">Wedding Transport</a></li>
           </ul>
         </div>
 
@@ -57,12 +57,12 @@ function Footer() {
 </div>
 
           <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:text-[#ff9900]">Swift Dzire Car Hire</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Toyota Etios Car Hire</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Honda City Car Hire</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Toyota Innova Car Hire</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Toyota Fortuner Car Hire</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Toyota Innova Crysta</a></li>
+            <li><a  className="hover:text-[#ff9900]">Swift Dzire Car Hire</a></li>
+            <li><a  className="hover:text-[#ff9900]">Toyota Etios Car Hire</a></li>
+            <li><a  className="hover:text-[#ff9900]">Honda City Car Hire</a></li>
+            <li><a  className="hover:text-[#ff9900]">Toyota Innova Car Hire</a></li>
+            <li><a  className="hover:text-[#ff9900]">Toyota Fortuner Car Hire</a></li>
+            <li><a  className="hover:text-[#ff9900]">Toyota Innova Crysta</a></li>
           </ul>
         </div>
 
@@ -79,12 +79,12 @@ function Footer() {
 </div>
 
           <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:text-[#ff9900]">Bus Hire for Wedding</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Car Hire for Wedding</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Mini Bus Hire</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Car Hire for Outstation</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">9 Seater Traveller</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">17 Seater Traveller</a></li>
+            <li><a  className="hover:text-[#ff9900]">Bus Hire for Wedding</a></li>
+            <li><a  className="hover:text-[#ff9900]">Car Hire for Wedding</a></li>
+            <li><a  className="hover:text-[#ff9900]">Mini Bus Hire</a></li>
+            <li><a  className="hover:text-[#ff9900]">Car Hire for Outstation</a></li>
+            <li><a  className="hover:text-[#ff9900]">9 Seater Traveller</a></li>
+            <li><a  className="hover:text-[#ff9900]">17 Seater Traveller</a></li>
           </ul>
         </div>
 
@@ -101,14 +101,14 @@ function Footer() {
 </div>
 
           <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:text-[#ff9900]">Online Payment</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Bank Details</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Feed Back</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Disclaimer</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Cancellation & Refund</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Terms & Conditions</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Privacy Policy</a></li>
-            <li><a href="#" className="hover:text-[#ff9900]">Download Invoice</a></li>
+            <li><a  className="hover:text-[#ff9900]">Online Payment</a></li>
+            <li><a  className="hover:text-[#ff9900]">Bank Details</a></li>
+            <li><a  className="hover:text-[#ff9900]">Feed Back</a></li>
+            <li><a  className="hover:text-[#ff9900]">Disclaimer</a></li>
+            <li><a  className="hover:text-[#ff9900]">Cancellation & Refund</a></li>
+            <li><a  className="hover:text-[#ff9900]">Terms & Conditions</a></li>
+            <li><a  className="hover:text-[#ff9900]">Privacy Policy</a></li>
+            <li><a  className="hover:text-[#ff9900]">Download Invoice</a></li>
           </ul>
         </div>
 

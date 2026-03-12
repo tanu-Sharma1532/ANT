@@ -50,14 +50,13 @@ const PopularDestinations = () => {
     sliderRef.current.scrollBy({ left: 350, behavior: "smooth" });
   };
 
-  /* Auto slide destinations */
-  useEffect(() => {
-    const interval = setInterval(() => {
-      sliderRef.current.scrollBy({ left: 350, behavior: "smooth" });
-    }, 3000);
+useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentImage((prev) => (prev + 1) % weekendImages.length);
+  }, 4000);
 
-    return () => clearInterval(interval);
-  }, []);
+  return () => clearInterval(interval);
+}, [weekendImages.length]);
 
   /* Weekend auto image slider */
 
