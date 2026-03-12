@@ -101,14 +101,14 @@ function Footer() {
 </div>
 
           <ul className="space-y-2 text-sm">
-            <li><a  className="hover:text-[#ff9900]">Online Payment</a></li>
-            <li><a  className="hover:text-[#ff9900]">Bank Details</a></li>
-            <li><a  className="hover:text-[#ff9900]">Feed Back</a></li>
-            <li><a  className="hover:text-[#ff9900]">Disclaimer</a></li>
-            <li><a  className="hover:text-[#ff9900]">Cancellation & Refund</a></li>
-            <li><a  className="hover:text-[#ff9900]">Terms & Conditions</a></li>
-            <li><a  className="hover:text-[#ff9900]">Privacy Policy</a></li>
-            <li><a  className="hover:text-[#ff9900]">Download Invoice</a></li>
+            <li><a href="#"  className="hover:text-[#ff9900]">Online Payment</a></li>
+            <li><a  href="#" className="hover:text-[#ff9900]">Bank Details</a></li>
+            <li><a href="#" className="hover:text-[#ff9900]">Feed Back</a></li>
+            <li><a href="#" className="hover:text-[#ff9900]">Disclaimer</a></li>
+            <li><a href="#" className="hover:text-[#ff9900]">Cancellation & Refund</a></li>
+            <li><a href="#" className="hover:text-[#ff9900]">Terms & Conditions</a></li>
+            <li><a href="#" className="hover:text-[#ff9900]">Privacy Policy</a></li>
+            <li><a href="#" className="hover:text-[#ff9900]">Download Invoice</a></li>
           </ul>
         </div>
 

@@ -35,7 +35,7 @@ function Navbar() {
               <div key={idx} className="flex items-center">
                 {/* Added href="#" to fix ESLint errors */}
                 <a
-                  className="px-2 py-0.5 hover:text-[#ff9900] transition-all duration-300 font-medium"
+                 href="#" className="px-2 py-0.5 hover:text-[#ff9900] transition-all duration-300 font-medium"
                 >
                   {item}
                 </a>
