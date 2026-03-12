@@ -16,13 +16,13 @@ const AboutTransport = () => {
   const [showMore, setShowMore] = useState(false);
 
   /* Auto change images */
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 4000);
+ useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentImage((prev) => (prev + 1) % images.length);
+  }, 4000);
 
-    return () => clearInterval(interval);
-  }, []);
+  return () => clearInterval(interval);
+}, [images.length]);
 
   return (
 

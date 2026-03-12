@@ -164,7 +164,7 @@ const PopularDestinations = () => {
           {/* Text */}
 
           <div>
-
+ 
             <div className="mb-6 text-center">
               <h2 className="text-4xl font-bold">
                 Perfect Weekend Getaways
